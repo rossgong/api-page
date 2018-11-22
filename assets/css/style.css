@@ -1,0 +1,67 @@
+body {
+	/* text-align: center; */
+}
+
+
+#button-container {
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#image-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image-tile {
+	position: relative;
+	margin: 10px;
+}
+
+.gif-rating-div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #333333;
+	opacity: .75;
+	color: white;
+	width: fit-content;
+	padding: 0 5px;
+	margin: 0;
+}
+
+form {
+	padding: 10px;
+}
+
+input {
+	margin: 0 0 10px 0;
+}
+
+#content-container {
+	width: 100%
+}
+
+#search-container {
+	width: 25%;
+	float: left;
+}
+
+#image-container {
+	width: 75%;
+	float: left;
+}
+
+@media screen and (max-width: 800px) {
+	#search-container {
+		width: unset;
+		float: unset;
+	}
+
+	#image-container {
+		width: unset;
+		float: unset;
+	}
+}
